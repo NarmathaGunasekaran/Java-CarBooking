@@ -1,9 +1,18 @@
-public class User {
+public class Customer {
     private String name;
     private long phone;
     private int payment;
+    private int book;
 
-    public User() {
+    public Customer() {
+    }
+
+    public int getBook() {
+        return book;
+    }
+
+    public void setBook(int book) {
+        this.book = book;
     }
 
     public String getName() {
